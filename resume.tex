@@ -1,69 +1,72 @@
-\documentclass[blue]{resume}
+\documentclass[green]{resume}
  
 \begin{document}
 \noindent
 
-\namesection{CHARLIE GUNN}{ 
-    \href{mailto:cgunn30@gatech.edu}{cgunn30@gatech.edu} --
-    703.298.3838 --
-    \href{https://github.com/quinquice}{github.com/quinquice} --
-    \href{z4z4}{devpost.com/charredxil}
+\namesection{Zachary Minot}{ 
+    \href{mailto:zjminot@gmail.com}{zjminot@gmail.edu} --
+    850$\cdot$459$\cdot$4314 --
+    \href{https://github.com/zminot}{github.com/zminot} --
+    \href{https://www.linkedin.com/in/zachary-minot/}{linkedin.com/in/zachary-minot} --
+    \href{https://devpost.com/zminot}{devpost.com/zminot}
 }
 
 \columnratio{\lcol}
 \begin{paracol}{2}
 %------------------------------------------------------------%
-\section{Employment}
-\compact[Summer 2020]{Leidos AI/ML Accelerator}{Software Engineering Intern}{
-    {Researched xRCA (Extended Rapid Class Augmentation),
-    a progressive learning technique to augment new classes
-    onto a model without using data from old classes},
-    {Developed a novel and general technique for stabilizing xRCA
-    initialization accuracy on few data},
-    {\textbf{Built with: Pytorch, Numpy, Jupyter, AWS}}
+\section{Experience}
+\compact[May 2020 - Present]{Georgia Tech}{Teaching Assistant}{
+    {TA for CS 2340 \textbf{Objects and Design}, a project-based Object-Oriented Design course},
+    {Member of the TA Review Team, which reviews documents released to 
+    ensure both grammatical and conceptual correctness},
+    {Class taught in \textbf{Java} using \textbf{JavaFX} and uses \textbf{git} as version control}
 }
-\compact[Summer 2019]{Leidos}{Software Engineering Intern}{
-    {Researched techniques for homomorphic encryption over machine learning models},
-    {Tested and benchmarked homomorphic encryption libraries (SEAL, Palisade, nGraph-HE)},
-    {\textbf{Built with: Tensorflow, Docker}}
+\compact[May 2019 - Jan. 2020]{Convopanda}{Software Apprentice}{
+    {Developed integral features using \textbf{Ruby on Rails} and \textbf{Javascript}, including 
+    a token-based authentication system for third-party JS, and the creation of 
+    a gif preview for embedded videos with \textbf{FFmpeg}},
+    {Designed a video player overlay and edited responsive web pages 
+    using \textbf{Bootstrap}, \textbf{HTML/Slim}, and \textbf{CSS/SASS}},
+    {Fixed multiple bugs, including \textbf{CSRF} and video transcoding bugs, and wrote 
+    automated tests using \textbf{RSpec} around implemented features to ensure successful 
+    building in production}
 }
-\compact[Summer 2018]{Blackboiler}{Software Engineering Intern}{
-    {Developed natural language processing solutions to aid automated contract review},
-    {Clustered legal documents into semantic groups using
-    unsupervised machine learning techniques},
-    {\textbf{Built with: SpaCy, Scikit Learn}}
+\compact[Aug. 2018 - May 2019]{Grabird Software Development, Inc.}{Software Development Intern}{
+    {Developed a survey \textbf{Android} app configurable 
+    through a server via \textbf{REST}},
+    {Manually tested existing software and wrote bug reports}
 }
-
-\compact[Fall 2020 - Present]{CS 2110: Computer Organization \& Programming}{Teaching Assistant}{}
-% An introduction to basic computer hardware, machine language, assembly language, and C programming.
-% I teach two 75-minute labs a week.
 
 \section{Projects}
-\compact{Latticode}{May 2020 -- Present}{
-    {An educational website designed to help intermediate programmers improve by coding 2D grid-based board games.
-    Games are rendered and playable online with friends in real-time},
-    {\textbf{Built with: React}}
+\compact{Super NEAT Bros.}{Fall 2020}{
+    {A machine learning team project that trains a model to both 
+    play and memorize Super Mario Bros. on an NES emulator},
+    {Implemented the image recognition portion of the project, 
+    including the data cleaning, KMeans, and CNN},
+    {\textbf{Built with: Pytorch, Scikit-learn, Python, Jupyter-Notebook, Lua}}
 }
-\compact{Geoverify}{Aug. 2018 -- June 2019}{
-    {\href{https://github.com/quinquice/geoverify}{Geoverify}
-     is a Haskell library (and command line interface) for manipulating and verifying two-column geometry proofs},
-    {The library can parse and understand both simple arithmetic and geometric propositions, and supports
-        extension by means of postulates and theorems},
-    {\textbf{Built with: Haskell (MTL, Lens, Transformers), PostgreSQL, Django}}
+\compact{Machines are Among Us}{Fall 2020}{
+    {Training Recurrent Neural Networks (LSTMs) to "communicate" back and 
+    forth to determine which of them is an imposter and attempting to find
+    interesting results, inspired by the popular game Among Us},
+    {\textbf{Built with: Pytorch, Python}}
+}
+\compact{G-PAD (General-Purpose Audio Device)}{Fall 2020}{
+    {Using an FPGA (DE-10 Lite) for square wave generation to a 
+    protoboard speaker to write music},
+    {Implemented the first version of note production, the ability to play
+    notes on two speakers at once, and wrote a Python script to aid in
+    composing music},
+    {\textbf{Built with: VHDL, Python}}
 }
 
 \section{Awards}
-\compact[Sept. 2019]{PennApps XX}{3rd Place Overall -- Best Open Source Contribution -- Hacker's Choice}{
-    {Developed \href{https://github.com/arya-k/impromPPTX}{ImpromPPTX},
-    an automatic real-time presentation generator},
-    {Uses custom-built ML models to generate relevant presentation slides, complete with titles, text summary, and images},
-    {\textbf{Built with: SpaCy, Pytorch, FastText, Django}}
-}
-
-\compact[Mar. 2019]{VTHacks}{1st Place Overall}{
-    {Created \href{https://github.com/ovkulkarni/electromotivated}{Electromotivated},
-    a website that automatically parses and analyzes pictures of circuits using computer vision and graph algorithms},
-    {\textbf{Built with: OpenCV, Numpy, Scikit Learn, Django}}
+\compact[Oct. 2019]{HackGT}{Runner Up in Anthem's Marketplace of the Future}{
+    {A mock extension of Anthem’s Carespree app with a business plan 
+    and mutual benefit to company and customers},
+    {Created almost the entire sample web app and pages, aside from the location 
+    services},
+    {\textbf{Built with: node.js, Express, Bootstrap}}
 }
 
 % \section{Activities}
@@ -74,23 +77,21 @@
 %------------------------------------------------------------%
 \section{Education}
 \subcompact{Georgia Institute of Technology}
-{Class of 2022 -- 4.0 GPA}
-{BS Computer Science, BS Mathematics}
-\subcompact{Thomas Jefferson High School for Science and Technology}
-{Graduated 2019}{}
+{Class of 2023 -- 3.92 GPA}
+{B.S. in Computer Science \\ \emph{concen. Systems/Architecture and Intelligence}}
 
 \section{Skills}
-\compact{Languages}{}{Python, Haskell, Javascript, C++, Rust}
-\compact{Technologies}{}{Pytorch, Lens, {Linux (Ubuntu, Arch)}, Docker}
-\compact{Misc}{}{Chess, Bananagrams}
+\compact{Languages}{}{Java, Python, C, VHDL, HTML/CSS/Javascript, Ruby, SQL}
+\compact{Technologies}{}{Pytorch/Scikit-Learn/NumPy, {Linux (Ubuntu)}, 
+JavaFX, Ruby on Rails/RSpec, Bootstrap, Git/GitHub}
+\compact{Misc}{}{Avid Music Listener, Frisbee Throwing Enthusiast}
 
 \section{Relevant Courses}
-\subcompact{Deep Learning}{CS 4803 -- In Progress}{}
-\subcompact{Probability and Statistics}{MATH 3215 -- In Progress}{}
-\subcompact{Design \& Analysis of Algorithms}{CS 3510 -- Grade: A}{}
-\subcompact{Computer Organization \& Programming}{CS 2110 -- Grade: A}{}
+\subcompact{Machine Learning \\ Deep Learning}{CS 4641, CS 4803 -- In Progress}{}
+\subcompact{Digital Design Lab \\ Computer Systems and Networks}{ECE 2031, CS 2200 -- In Progress}{}
+\subcompact{Computer Organization and \\ Programming}{CS 2110 -- Grade: A}{}
+\subcompact{Data Structures and Algorithms}{CS 1332 -- Grade: A}{}
 \subcompact{Honors Discrete Math for CS}{CS 2051 -- Grade: A}{}
-\subcompact{Applied Combinatorics}{MATH 3012 -- Grade: A}{}
 
 %------------------------------------------------------------%
 \end{paracol}

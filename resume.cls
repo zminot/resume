@@ -45,6 +45,11 @@
     \definecolor{sidebarbg} {HTML}{E4E1F4}
 }
 
+\DeclareOption{green}{
+    \definecolor{headerbg}  {HTML}{1DB954}
+    \definecolor{sidebarbg} {HTML}{DDFFDD}
+}
+
 \DeclareOption{red}{
     \definecolor{headerbg}  {HTML}{A44A3F}
     \definecolor{sidebarbg} {HTML}{E9ECEC}
