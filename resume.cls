@@ -126,7 +126,8 @@
     \subsection{#2} 
     \vspace{-5pt}
     \small
-    \notblank{#3}{\emph{#3}}{}
+    \notblank{#3}{#3}{}
+    %\notblank{#3}{\emph{#3}}{}
     \notblank{#1}{\hfill \emph{#1}}{}
     \notblank{#4}{
         \begin{itemize}[noitemsep, nolistsep, leftmargin=*]
